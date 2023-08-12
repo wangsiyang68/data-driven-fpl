@@ -1,0 +1,16 @@
+# Gameweek 1
+
+## File Glossary
+
+### Data
+- `22_23_cleaned_players.xlsx` : A copy of cleaned_players.xlsx in the 2022_2023 folder, but with extra columns (Points-Per-Match, Expected Points given Price)
+- `combined_seasons_data_test.csv` : Form data from 21/22 season and price data from 22/23 season
+- `combined_seasons_data_train.csv` : Form data from 20/11 season and price data from 21/22 season
+- `initial_cleaned_players_21_22.csv` : Data downloaded from vaatsav github before 21_22 season started
+- `initial_cleaned_players_22_23.csv` : Data downloaded from vaatsav github before 22_23 season started
+
+
+### Code
+- `create_combined_dataset.ipynb` : Create the combined_seasons_data train and test datasets
+- `linear_regression_points` : Predict the number of points that a player will get given data about form after the season has ended
+- `linear_regression_price` : Predict the price of a player at the end of the season, given the price at the start of the season and the form from last season
